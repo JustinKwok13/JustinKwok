@@ -1,3 +1,53 @@
 body {
+    background-color: white;
+    font-family: 'Acme';
+}
+
+.center {
+    margin: auto;
+    width: 45%;
+    border: 0.2px solid black;
+    padding: 5px;
+    padding-bottom: 15px;
+}
+
+.list {
+    width: 30%;
+    border: 0.2px solid black;
+    padding: 10px;
+    margin:auto;
+    height: 100px;
+}
+
+.list:hover {
     background-color: lightskyblue;
 }
+
+.listimg {
+    height: 100%;
+    width: 25%;
+    float:left;
+}
+
+.listtext {
+    padding-left: 20px;
+    margin:0;
+    justify-content:left;
+}
+
+.listtexttitle {
+    justify-content:left;
+    padding-left: 20px;
+    margin:0;
+    font-size: 25px;
+    margin-top: 5%;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+input {
+    width: 99%;        
+}
+
