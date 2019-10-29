@@ -32,6 +32,10 @@ function addartist() {
     var about = document.getElementById("aboutinput").value;
     localStorage.setItem(name, JSON.stringify([image, name, about]));
     buttonadd(image, name, about);
+
+    document.getElementById("imginput").textContent = "";
+    document.getElementById("nameinput").textContent = "";
+    document.getElementById("aboutinput").textContent = "";
 }
 
 function buttonadd(image, name, about){
